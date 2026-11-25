@@ -20,7 +20,7 @@ void deleteByindex(){
     int pos;
     int i;
     printf("Enter index to delete\n");
-    scanf("%d\n",&pos);
+    scanf("%d",&pos);
     if(pos<0 || pos >=n){
         printf("Invelid index!\n");
         return;
